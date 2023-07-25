@@ -4,55 +4,6 @@ import Icon from "./Images/house.png"
 import searchIcon from "./Images/search.png"
 
 function App() {
-  const SAMPLE = [
-    {
-    title: "Beautiful Loft", 
-    img: `${Icon}`,
-    price: "$20",
-    details: {
-      rentalType: "full property",
-      roomNum: "3",
-      bathNum: "2",
-      maxPeople: "8",
-      websiteURL: "url"
-    },
-  },
-  {
-    title: "Nice Loft", 
-    img: `${Icon}`,
-    price: "$20",
-    details: {
-      rentalType: "full property",
-      roomNum: "3",
-      bathNum: "2",
-      maxPeople: "8",
-      websiteURL: "url"
-    },
-  },
-  {
-    title: "Beautiful Loft", 
-    img: `${Icon}`,
-    price: "$20",
-    details: {
-      rentalType: "full property",
-      roomNum: "3",
-      bathNum: "2",
-      maxPeople: "8",
-      websiteURL: "url"
-    },
-  },
-  {
-    title: "Nice Loft", 
-    img: `${Icon}`,
-    price: "$20",
-    details: {
-      rentalType: "full property",
-      roomNum: "3",
-      bathNum: "2",
-      maxPeople: "8",
-      websiteURL: "url"
-    },
-  }
 
 ]
   const [listings, setListings] = React.useState([])
