@@ -1,0 +1,149 @@
+body
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.boxes
+{
+    padding-right: 8rem;
+    padding-left: 8rem;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+    display: grid;
+    grid-template: auto / auto auto auto;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    
+}
+
+ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.boxes-box
+{
+    padding: 2rem;
+    background-color: rgb(241, 241, 241);
+    border-radius: 2rem;
+}
+
+.boxes-box img
+{
+    display: block;
+    margin:auto;
+    border-radius: 0.5rem;
+    max-height: 10rem;
+    max-width: 20rem;
+}
+
+.input-box
+{
+    margin-top: 4rem;
+    display: flex;
+    margin-left: 7rem;
+}
+input, button
+{
+    padding: 0.75rem;
+    border-radius: 1rem;
+    background-color: rgb(241, 241, 241);
+    border-style: none;
+    width: fit-content;
+    margin-left: 1rem;
+
+}
+
+#place
+{
+    width: 20rem;
+}
+
+#search-button
+{
+    max-height: 20px;
+    max-width: 20px;
+}
+
+.boxes-box-priceNsave
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.save 
+{
+  border-style: none;
+  border-radius: 1rem;
+  background-color: rgb(174, 0, 0);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.save:hover
+{
+  background-color: rgb(200, 112, 112);
+}
+
+nav
+{
+  display: flex;
+  justify-content: left;
+  vertical-align: middle;
+  margin: 1rem;
+}
+
+.searchon, .savedon
+{
+  padding-top: 0.15rem;
+  padding-bottom: 0.3rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  text-decoration: none;
+  border-style: none;
+  background-color:  rgb(174, 0, 0);
+  color: white;
+  margin-right: 0.5rem;
+  border-radius: 0.6rem;
+  width: 3rem;
+  text-align: center;
+}
+
+.searchon:hover
+{
+  background-color: rgb(200, 112, 112);
+}
+.savedon:hover
+{
+  background-color: rgb(200, 112, 112);
+}
+
+.search, .saved
+{
+  padding-top: 0.15rem;
+  padding-bottom: 0.3rem;
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  text-decoration: none;
+  border-style: none;
+  background-color: rgb(241, 241, 241);
+  color: black;
+  margin-right: 0.5rem;
+  border-radius: 0.6rem;
+  width: 3rem;
+  text-align: center;
+}
+
+.search:hover
+{
+  background-color: rgb(230, 230, 230);
+}
+.saved:hover
+{
+  background-color: rgb(230, 230, 230);
+}
+
+
+
